@@ -16,7 +16,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 set(SOURCES
-    src/${project_name}.cpp
+    ./src/main.cpp
 )
 
 # set(HEADERS
@@ -55,6 +55,6 @@ mkdir -p src
 
 echo "$cmake_content" > ./CMakeLists.txt
 
-echo "int main() { return 0; }" > src/"${project_name}".cpp
+echo "int main() { return 0; }" > src/main.cpp
 
 echo "boilerplate CMakeLists.txt and source file created"

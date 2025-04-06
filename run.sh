@@ -20,6 +20,8 @@ if [ -d "$build_dir" ]; then
     cmake -DCMAKE_BUILD_TYPE="${build_type}" ..
     echo "compiling project.."
     cmake --build .
+    echo "adding compile commands.."
+    cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=YES ..
     echo "executing project.."
     ./"${project_name}"
 else

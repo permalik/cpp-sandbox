@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "started cpp.." << std::endl;
+    std::cout << "started.." << std::endl;
     return 0;
 }
