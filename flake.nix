@@ -52,7 +52,7 @@
           #   # pkgs.valgrind
           # ];
 
-          shellHook = ''
+          shellHook = with pkgs; ''
             # Source .bashrc
             . .bashrc
           '';
