@@ -1,2 +1,2 @@
-# cpp_sandbox
-sandbox:CPP Programming and Turnkey Ecosystem
+# cpp-sandbox
+sandbox:C++ Programming and Turnkey Ecosystem
